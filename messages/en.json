@@ -1,0 +1,28 @@
+{
+  
+    "Hero": {
+      "title": "A new layer of possibilities",
+      "subtitle": "Elevate your parachain presence. Drive adoption"
+    },
+    "Buttons" : {
+     "join" : "Discover polkadot",
+     "partener" : "For ecosystems"
+    },
+    "About"  : {
+      "intro" : "Trusted by 1M users and $100B ecosystems",
+      "title_1" : "DEVELOPER OWNED &\n GOVERNED COMMUNITY",
+      "title_2" : "LEARNING & \n BUILDING FOR WEB3"
+    },
+    "vision" : {
+   "title" : "Our Vision",
+   "subtitle" : "Create an environment that fosters, supports and incentivises a diverse \n community of builders to help create a better, more equitable future."
+    },
+    "parteners" : {
+   "title" : "Our Partners",
+    "subtitle"  : "Were proud to partner with some of the best communites \n protocols and products."
+    },
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} Hz {hz Chinese} other {kabuu}}"
+    }
+  }  
