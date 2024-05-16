@@ -23,31 +23,15 @@ import { TWITTER_URL } from '@/constant';
 export default function Hero({title, subtitle, joinBtn, partenerBtn} : Props) {
   return (
 
-    <div className=' h-[60vh] lg:h-screen    flex items-center w-full justify-center '>
-         <div
-         
-         >
-            <div className='xs:min-h[30vh] md:min-h-[40vh] flex flex-col items-center justify-center bg-yellow-400  w-full'>
-       {/*} <h1 className='xs:text-4xl xs:leading-snug sm:text-5xl sm:leading-snug md:text-6xl md:leading-snug lg:text-7xl lg:leading-snug text-center font-extrabold text-gray-300'>
-            A video sharing platform < br />
-             Empowering    
-
-             <TypeAnimation
-               sequence={[
-                 "Creators",
-                 2000,
-                 "Users",
-                 2000
-               ]}
-               wrapper='span'
-               repeat={Infinity}
-               className='ml-3 text-rose-500'
-             />
-        </h1>*/}
+    <div className=' h-[60vh] lg:h-screen    flex items-center w-full justify-center   '>
+    
+            <div className=' flex flex-col items-center justify-center   w-full   '>
+           
+   
         
-         <div className='absolute  w-full bg-black/90 filter drop-shadow-lg flex items-center justify-center flex-col'>
-         <h1 className={` text-4xl text-center md:text-5xl font-medium my-5 ${inter.className} font-sans text-white`}>{title}</h1>
-         <p className={`${inter.className} font-sans md:font-semibold text-lg text-gray-400 text-center`}>{subtitle}</p>
+         <div className='  w-full  filter drop-shadow-lg flex items-center justify-center flex-col  '>
+         <h1 className={` text-4xl text-center md:text-5xl xl:text-7xl xl:font-bold font-medium my-5 ${inter.className} font-sans text-white`}>{title}</h1>
+         <p className={`${inter.className} font-sans md:font-semibold text-lg xl:text-2xl text-gray-400 text-center`}>{subtitle}</p>
            <div className='mt-8 '>
                 <div className='flex items-center space-x-5'>
                      <div 
@@ -55,7 +39,7 @@ export default function Hero({title, subtitle, joinBtn, partenerBtn} : Props) {
                        onClick={() =>  openLinkInNewTab(DISCOVER_URL)}
                      >
                      
-                      <p className={`${inter.className} font-sans`}>{joinBtn}</p>
+                      <p className={`${inter.className} `}>{joinBtn}</p>
                      </div>
                      <div className='flex gap-2 items-center bg-gray-700 text-sm text-gray-200 md:py-4 md:px-6 py-2 px-4  rounded-xl cursor-pointer '
                       onClick={() => openLinkInNewTab(GOOGLE_FORM)}
@@ -66,7 +50,7 @@ export default function Hero({title, subtitle, joinBtn, partenerBtn} : Props) {
                 </div>
            </div>
            <div className='my-14 flex items-center space-x-3 text-gray-400'>
-              <p className='text-sm font-medium'>SCROLL TO EXPLORE</p>
+              <p className='text-sm font-medium xl:text-lg'>SCROLL TO EXPLORE</p>
               <HiOutlineChevronDoubleDown className='w-5 h-5 animate-bounce' />
            </div>
            </div>
@@ -81,7 +65,7 @@ export default function Hero({title, subtitle, joinBtn, partenerBtn} : Props) {
   loading='lazy'
 />
             </div>*/}
-        </div>
+      
         </div>
    
   )

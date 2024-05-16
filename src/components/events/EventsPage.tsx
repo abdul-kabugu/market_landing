@@ -55,7 +55,7 @@ export default function EventsPage() {
         )
        }
   return (
-    <div className='px-2 md:px-3'>
+    <div className='px-2 md:px-3 mt-4'>
    
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5  '> 

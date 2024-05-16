@@ -54,9 +54,9 @@ export default function About({intro, title_2, title_1} : Props) {
 
 
           <div className="my-12 w-full">
-             <h1  className={`${inter.className} font-sans text-lg md:text-4xl text-gray-200 font-semibold text-center my-7`}>Scaling global adoption across chains</h1>
-              <div className='w-full  flex flex-col lg:flex-row space-y-4 space-x-5'>
-               <div className=' w-11/12 md:4/5 mx-auto lg:w-3/6 h-[60vh] lg:h-[80vh] bg-gray-800 rounded-xl p-3 flex flex-col items-center justify-center'>
+             <h1  className={`${inter.className} font-sans text-lg md:text-4xl xl:text-5xl text-gray-200 font-semibold text-center my-7`}>Scaling global adoption across chains</h1>
+              <div className='w-full  items-center justify-center flex flex-col lg:flex-row space-y-4 space-x-5'>
+               <div className=' w-11/12 md:4/5 mx-auto lg:w-3/6 h-[45vh] lg:h-[70vh] xl:h-[60vh] bg-gray-800 rounded-xl p-3 flex flex-col items-center justify-center'>
                   <div>
                      <Image  src={`/img/users.svg`} width={200} height={200} alt='users'
                        className='w-28 h-28 md:w-52 md:h-52'
@@ -73,7 +73,7 @@ export default function About({intro, title_2, title_1} : Props) {
 
                </div>
 
-               <div className='w-11/12 md:4/5 mx-auto lg:w-3/6 h-[60vh] lg:h-[80vh] bg-gray-800 rounded-xl p-3 flex flex-col items-center justify-center'>
+               <div className='w-11/12 md:4/5 mx-auto lg:w-3/6 h-[45vh] lg:h-[70vh] xl:h-[60vh] bg-gray-800 rounded-xl p-3 flex flex-col items-center justify-center'>
     <div>
                      <Image  src={`/img/ecos.svg`} width={290} height={290} alt='users'
                        className='w-28 h-28 md:w-52 md:h-52'

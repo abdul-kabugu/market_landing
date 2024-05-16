@@ -47,7 +47,10 @@ export const ecosystems = [
 export const DISCOVER_URL = "https://discover.linkdots.xyz/"
 export const QUEST_URL = "https://quests.linkdots.xyz/"
 export const GOOGLE_FORM = "https://forms.gle/UFmXHoT99nQKrfLw9"
-export const TWITTER_URL = "hahah"
+export const BLOG_URL =  "https://grillapp.net/@aiweb3"
+export const TWITTER_URL = "https://twitter.com/aiweb3dao"
+export const TELEGRAM_URL  = "https://t.me/aiweb3dao"
+export const discord_url = "https://discord.com/invite/pQtZG8UQfk"
 
 export const topBanv = [
     {
@@ -56,15 +59,11 @@ export const topBanv = [
 
     },
   
-    {
-        name : "blog",
-        url : "/blog",
-
-    },
+  
 
     {
         name : "Nifts",
-        url : "/events",
+        url : "/nfts",
         label : "soon"
 
     },
@@ -73,31 +72,35 @@ export const topBanv = [
 export const investors = [
     {
         name : "Polkadot",
-         logo : ""
+         logo : "https://pbs.twimg.com/profile_images/1675780528992141312/AIth_3GW_400x400.jpg"
     },
     {
-        name : "Polkadot",
-         logo : ""
+        name : "Sub wallet",
+         logo : "https://pbs.twimg.com/profile_images/1651520550295212037/YUKs0gC5_400x400.jpg"
     },
     {
-        name : "Polkadot",
-         logo : ""
+        name : "Astar network",
+         logo : "https://pbs.twimg.com/profile_images/1765180742504427520/_5kSW1uf_400x400.png"
     },
     {
-        name : "Polkadot",
-         logo : ""
+        name : "bifrost",
+         logo : "https://pbs.twimg.com/profile_images/1609115144730345473/Nohy-fN5_400x400.jpg"
     },
     {
-        name : "Polkadot",
-         logo : ""
+        name : "centrifuge",
+         logo : "https://pbs.twimg.com/profile_images/1144565681977024512/KM_4CoiV_400x400.jpg"
     },
     {
-        name : "Polkadot",
-         logo : ""
+        name : "inVanarch",
+         logo : "https://pbs.twimg.com/profile_images/1789641252054401024/lwUAt1LX_400x400.jpg"
     },
     {
-        name : "Polkadot",
-         logo : ""
+        name : "Polimec",
+         logo : "https://pbs.twimg.com/profile_images/1648609268097007621/zLCEEksk_400x400.jpg"
+    },
+    {
+        name : "Appilon",
+         logo : "https://pbs.twimg.com/profile_images/1580202528515543044/FKkX06AB_400x400.jpg"
     },
 ]
 

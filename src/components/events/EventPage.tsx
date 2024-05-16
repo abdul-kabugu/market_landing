@@ -69,11 +69,11 @@ export default function EventPage() {
         )
       }
   return (
-    <div className='px-0 md:px-3  '>
-        <h1 className={`${inter.className} text-3xl font-extrabold ml-6 my-4`}>{events && events[0]?.name}</h1>
-          <div className=' flex  lg:flex-row flex-col-reverse space-x-4 max-w-7xl mx-auto w-11/12 items-center justify-center  '>
-            <div className='flex flex-col items-center justify-center h-[80vh] w-full lg:w-2/4'>
-           <img src={ events && events[0]?.cover} className='w-full h-full object-cover lg:rounded-lg'  />
+    <div className='px-0 md:px-3  min-h-screen flex flex-col items-center justify-center  '>
+        <h1 className={`${inter.className} text-3xl font-extrabold  my-6 capitalize`}>{events && events[0]?.name}</h1>
+          <div className=' flex  lg:flex-row flex-col-reverse space-x-4 max-w-7xl mx-auto w-11/12 items-center justify-center   '>
+            <div className='flex flex-col items-center justify-center h-52 md:h-64 lg:h-[60vh] w-full lg:w-2/4'>
+           <img src={ events && events[0]?.cover} className='w-full h-full  max-h-52 lg:max-h-[60vh] object-cover lg:rounded-lg'  />
            <div className='my-4 w-full'>
          <Button className='w-full bg-white text-gray-900 py-3 text-xl font-semibold' 
          disabled={true}

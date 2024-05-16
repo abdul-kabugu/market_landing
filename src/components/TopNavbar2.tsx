@@ -19,15 +19,16 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import Navigations from './Navigations'
+import Blogs from './Blogs'
 
 export default function TopNavbar2() {
   return (
     <div className='w-full bg-gray-950 sticky top-0  z-20'>
     <div className='  border-b border-b-gray-800/30 flex justify-between items-center py-5 px-3 h-[65px]  max-w-6xl w-full  mx-auto'>
-       <Link href={`/`}>
+    <Link href={`/`}>
        <div className='flex items-center gap-0'>
-        <img   src={logo.src} alt='' className='w-10 h-10' />
-        <p className='font-bold lg:text-xl underline-offset-8  underline hidden md:block '>Link dots</p>
+        <img   src={`/img/kom.jpg`} alt='' className='w-10 h-10 rounded-full object-cover ' />
+        <p className='font-bold  underline-offset-8  underline  hidden md:block uppercase '>web3 dao</p>
        </div>
        </Link>
       
@@ -36,8 +37,7 @@ export default function TopNavbar2() {
        
    <Navigations   />
           {/*<LocaleSwitcher  />*/}
-          <button className='py-1 px-3 md:py-2 md:px-5 rounded-xl md:rounded-2xl bg-blue-600 hover:bg-blue-500 text-gray-100 hidden md:block' >Create Quest</button>
-          </div>
+<Blogs  />          </div>
 
     </div>
     </div>

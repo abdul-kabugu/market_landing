@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
             <NextNProgress color="#29D" startPosition={0.3} stopDelayMs={200} height={3} showOnShallow={true} />
 
-      <body  className = {`bg-gray-950 text-gray-300`}>{children}</body>
+      <body  className = {`bg-gray-950 text-gray-300 ${inter.className}`}>{children}</body>
     </html>
   )
 }

@@ -5,7 +5,7 @@ import EventsPage from '@/components/events/EventsPage'
 import TopNavbar2 from '@/components/TopNavbar2'
 export default function page() {
   return (
-    <div className={`flex min-h-screen flex-col   bg-[url("/img/star.svg")] bg-gray-950 ${inter.className} text-gray-300`}>
+    <div className={`flex min-h-screen flex-col   bg-[url("/img/star.svg")] bg-gray-950 ${inter.className} text-gray-300 max-w-7xl  mx-auto p-3`}>
       <TopNavbar2  />
    <EventsPage  />
     </div>
